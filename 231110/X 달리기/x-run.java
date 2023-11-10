@@ -18,13 +18,13 @@ public class Main {
         for (int i = num - 1; i >= 1; i--)
             sum += i;
 
-        //System.out.println(sum);
         if (x - sum == 0)
             System.out.println(ans);
         else if (x - sum < num)
             System.out.println(ans + 1);
         else
-            System.out.println(ans + (x - sum) / num);
+            System.out.println(ans + (int) Math.ceil((x - sum) / (double) num));
+
     }
 
 }
