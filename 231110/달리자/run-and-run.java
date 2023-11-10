@@ -6,38 +6,25 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int[] A = new int[n];
-        int[] B = new int[n];
-        int ans = Integer.MAX_VALUE;
+        int[] a = new int[n];
+        int[] b = new int[n];
+        int ans = 0;
 
         for (int i = 0; i < n; i++)
-            A[i] = sc.nextInt();
+            a[i] = sc.nextInt();
 
         for (int i = 0; i < n; i++)
-            B[i] = sc.nextInt();
+            b[i] = sc.nextInt();
 
-        int sum = 0;
-        boolean check = true;
         for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                check = true;
-                if (A[i] > B[i] && B[j] > A[j]) {
-                    sum += ((A[i] - B[i]) * (j - i));
-                    A[j] += (A[i] - B[i]);
-                    A[i] = B[i];
-                }
-            }
-
-            for (int k = 0; k < n; k++) {
-                if (A[k] != B[k])
-                    check = false;
-            }
-            if (check) {
-                System.out.println(sum);
-                System.exit(0);
+            if (a[i] > b[i]) {
+                int num = a[i] - b[i];
+                a[i] -= num;
+                a[i + 1] += num;
+                ans += num;
             }
         }
-        System.out.println(0);
+        System.out.println(ans);
     }
 
 }
