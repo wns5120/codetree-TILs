@@ -26,7 +26,7 @@ public class Main {
                 if (b[i] == 3)
                     aw++;
                 else if (b[i] == 1)
-                    aw++;
+                    bw++;
             } else if (a[i] == 3) {
                 if (b[i] == 1)
                     aw++;
