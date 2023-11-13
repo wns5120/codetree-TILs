@@ -8,10 +8,12 @@
 
 |총 문제수|획득 경험치|연속 학습|
 |---:|---:|---|
-1|60xp|2일째🔥|
+3|60xp|2일째🔥|
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
+|[Novice Mid / 케이스별로 나누기 / 가능한 상황을 나열하기](https://www.codetree.ai/missions?missionId=5)|[[개념]순위 경쟁2](https://www.codetree.ai/missions/5/problems/ranking-competition2)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/wns5120/codetree-TILs/blob/main/231113/%EC%88%9C%EC%9C%84%20%EA%B2%BD%EC%9F%812/ranking-competition2.java)|
+|[Novice Mid / 케이스별로 나누기 / 가능한 상황을 나열하기](https://www.codetree.ai/missions?missionId=5)|[[연습]두 번째로 작은 숫자의 위치](https://www.codetree.ai/missions/5/problems/location-of-the-second-smallest-number)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/wns5120/codetree-TILs/blob/main/231113/%EB%91%90%20%EB%B2%88%EC%A7%B8%EB%A1%9C%20%EC%9E%91%EC%9D%80%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%9C%84%EC%B9%98/location-of-the-second-smallest-number.java)|
 |[Novice Mid / 케이스별로 나누기 / 가능한 상황을 나열하기](https://www.codetree.ai/missions?missionId=5)|[[연습]L, R 그리고 B](https://www.codetree.ai/missions/5/problems/l-r-and-b)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/wns5120/codetree-TILs/blob/main/231113/L%2C%20R%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20B/l-r-and-b.java)|
 
 
