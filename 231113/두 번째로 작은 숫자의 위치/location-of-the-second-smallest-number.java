@@ -33,7 +33,7 @@ public class Main {
         if (cnt > 1 || min2 == Integer.MAX_VALUE)
             System.out.println(-1);
         else
-            System.out.println(ans);
+            System.out.println(ans+1);
     }
 
 }
