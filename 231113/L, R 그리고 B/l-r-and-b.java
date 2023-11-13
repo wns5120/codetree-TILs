@@ -34,10 +34,10 @@ public class Main {
                 }
             }
         }
-        
-        if (Math.abs(x1 - x2) == 0 && void_y > Math.min(y1, y2) && void_y < Math.max(y1, y2))
+
+        if (Math.abs(x1 - x2) == 0 && void_y > Math.min(y1, y2) && void_y < Math.max(y1, y2)&&x1==void_x)
             System.out.println(Math.abs(x1 - x2) + Math.abs(y1 - y2) - 1 + 2);
-        else if (Math.abs(y1 - y2) == 0 && void_x > Math.min(x1, x2) && void_x < Math.max(x1, x2))
+        else if (Math.abs(y1 - y2) == 0 && void_x > Math.min(x1, x2) && void_x < Math.max(x1, x2)&&y1==void_y)
             System.out.println(Math.abs(x1 - x2) + Math.abs(y1 - y2) - 1 + 2);
         else
             System.out.println(Math.abs(x1 - x2) + Math.abs(y1 - y2) - 1);
