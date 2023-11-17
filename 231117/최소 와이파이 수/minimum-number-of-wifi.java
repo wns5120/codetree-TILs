@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
         int[] arr = new int[n];
         int m = sc.nextInt();
-        int[] wifi = new int[n];
+        int[] wifi = new int[n+100];
 
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
