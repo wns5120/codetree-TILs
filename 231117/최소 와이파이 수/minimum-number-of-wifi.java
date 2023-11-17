@@ -8,21 +8,19 @@ public class Main {
         int n = sc.nextInt();
         int[] arr = new int[n];
         int m = sc.nextInt();
-        int[] wifi = new int[n+100];
+        int[] wifi = new int[n];
 
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            if (m >= n && arr[i] == 1) {
-                System.out.println(1);
-                System.exit(0);
-            }
             if (arr[i] == 1) {
-                wifi[i + m] = 1;
-                i += m;
+                if (i + m >= n)
+                    wifi[n - 1] = 1;
+                else
+                    wifi[i + m] = 1;
+                i += m * 2;
             }
-
         }
 
         int ans = 0;
@@ -30,7 +28,6 @@ public class Main {
         for (int i = 0; i < n; i++)
             if (wifi[i] == 1)
                 ans++;
-
 
         System.out.println(ans);
     }
