@@ -33,7 +33,10 @@ public class Main {
         zak -= Math.min(hol, zak);
 
         if (hol > 0) {
-            ans += hol / 2 + 1;
+            if (hol == 2)
+                ans += hol / 2;
+            else
+                ans += hol / 2 + 1;
         } else {
             ans++;
         }
