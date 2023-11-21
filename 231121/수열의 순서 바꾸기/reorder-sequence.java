@@ -13,8 +13,10 @@ public class Main {
             arr[i] = sc.nextInt();
 
         for (int i = n - 1; i >= 1; i--) {
-            if (arr[i] < arr[i - 1])
+            if (arr[i] < arr[i - 1]) {
                 ans = i;
+                break;
+            }
         }
 
         System.out.println(ans);
