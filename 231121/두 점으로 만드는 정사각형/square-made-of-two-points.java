@@ -15,7 +15,7 @@ public class Main {
         int y2 = sc.nextInt();
         int ans = 0;
 
-        ans=Math.max(Math.abs(x1-a2),Math.abs(b1-y2));
+        ans=Math.max(Math.max(a2,x2)-Math.min(a1,x1),Math.max(b2,y2)-Math.min(b1,y1));
         System.out.println(ans*ans);
     }
 
