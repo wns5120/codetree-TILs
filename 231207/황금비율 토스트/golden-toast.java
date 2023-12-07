@@ -21,16 +21,20 @@ public class Main {
             if (c == 'L') {
                 if (it.hasPrevious())
                     it.previous();
+
             } else if (c == 'R') {
                 if (it.hasNext())
                     it.next();
+
             } else if (c == 'D') {
-                it.remove();
+                if (it.hasNext()) {
+                    it.next();
+                    it.remove();
+                }
+
             } else if (c == 'P') {
                 char pb = sc.next().charAt(0);
                 it.add(pb);
-                if (it.hasNext())
-                    it.next();
             }
         }
         it = code.listIterator();
