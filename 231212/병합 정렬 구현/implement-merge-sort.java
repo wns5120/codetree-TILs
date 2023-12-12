@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static int[] merge_sort(int[] arr, int low, int mid, int high) {
-        sorted_arr = new int[arr.length];
+        sorted_arr = new int[n];
         int i = low;
         int j = mid + 1;
         int k = low;
