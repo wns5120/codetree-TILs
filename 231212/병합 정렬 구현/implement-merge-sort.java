@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main {
     public static int n;
+    public static int[] sorted_arr = new int[n];
 
     public static void merge_function(int[] arr, int low, int high) {
         if (low < high) {
@@ -13,7 +14,6 @@ public class Main {
     }
 
     public static int[] merge_sort(int[] arr, int low, int mid, int high) {
-        int[] sorted_arr = new int[n];
         int i = low;
         int j = mid + 1;
         int k = low;
